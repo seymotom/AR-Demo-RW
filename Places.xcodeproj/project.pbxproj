@@ -28,7 +28,6 @@
 		DECA10571E67333A00848CAA /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA10561E67333A00848CAA /* AnnotationView.swift */; };
 		DECA105A1E67652300848CAA /* Reaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA10581E67652300848CAA /* Reaction.swift */; };
 		DECA105B1E67652300848CAA /* WanderPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA10591E67652300848CAA /* WanderPost.swift */; };
-		DECA105D1E67655C00848CAA /* Cloud Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA105C1E67655C00848CAA /* Cloud Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +54,6 @@
 		DECA10561E67333A00848CAA /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		DECA10581E67652300848CAA /* Reaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reaction.swift; sourceTree = "<group>"; };
 		DECA10591E67652300848CAA /* WanderPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WanderPost.swift; sourceTree = "<group>"; };
-		DECA105C1E67655C00848CAA /* Cloud Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cloud Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 			children = (
 				DECA10581E67652300848CAA /* Reaction.swift */,
 				DECA10591E67652300848CAA /* WanderPost.swift */,
-				DECA105C1E67655C00848CAA /* Cloud Manager.swift */,
 				8F74045A1DCDD5F5009A6F0B /* ARAnnotation.swift */,
 				8F74045B1DCDD5F5009A6F0B /* ARAnnotationView.swift */,
 				8F74045C1DCDD5F5009A6F0B /* ARConfiguration.swift */,
@@ -240,7 +237,6 @@
 				8F7404681DCDD5F5009A6F0B /* ARConfiguration.swift in Sources */,
 				8F7404471DCDD569009A6F0B /* AppDelegate.swift in Sources */,
 				8F7404811DCF31B0009A6F0B /* Place.swift in Sources */,
-				DECA105D1E67655C00848CAA /* Cloud Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,18 @@ import Foundation
 import CloudKit
 import CoreLocation
 
+enum PostContentType: NSString {
+  case audio, text, video
+}
+
+enum PrivacyLevel: NSString {
+  case message, friends, everyone
+}
+
+
 class WanderPost: ARAnnotation {
 //    let location: CLLocation
     let content: AnyObject
-    let user: CKRecordID? = CloudManager.shared.currentUser
     let contentType: PostContentType
     let privacyLevel: PrivacyLevel
     let reactions: [Reaction]
